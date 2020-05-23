@@ -1,0 +1,24 @@
+{
+  "title": "Omlette",
+  "description" : null,
+  "rating": 5,
+  "ingredients": ["eggs", "salt", "pepper"],
+  "baked" : false
+}
+
+[
+  {
+    "title": "Omlette",
+    "description": null,
+    "rating": 5,
+    "ingredients": ["eggs", "salt", "pepper"],
+    "baked": false
+  },
+  {
+    "title": "Sandwich",
+    "descripton": null,
+    "rating": 4.5,
+    "ingredients": ["toasted bread", "tomatoes", "spicy mayo"],
+    "baked": true
+  }
+]

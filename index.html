@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let recipes = [
+        {
+          title: "Omlette",
+          description: null,
+          rating: 5,
+          ingredients: ["eggs", "salt", "pepper"],
+          baked: false,
+        },
+        {
+          title: "Sandwich",
+          descripton: null,
+          rating: 4.5,
+          ingredients: ["toasted bread", "tomatoes", "spicy mayo"],
+          baked: true,
+        },
+      ];
+
+      console.log(recipes[0].title);
+
+      let json_recipes = JSON.stringify(recipes);
+      console.log(json_recipes);
+
+      let parsed_recipes = JSON.parse(json_recipes);
+      console.log(parsed_recipes);
+    </script>
+  </body>
+</html>
